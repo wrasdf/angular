@@ -9,7 +9,7 @@ files = [
     'unit/*.js'
 ];
 
-autoWatch = true;
+autoWatch = false;
 
 browsers = ['PhantomJS'];
 

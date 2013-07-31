@@ -10,6 +10,7 @@ files = [
 ];
 
 autoWatch = false;
+singleRun = true;
 
 browsers = ['PhantomJS'];
 

@@ -14,7 +14,9 @@ singleRun = true;
 
 browsers = ['PhantomJS'];
 
+reporters = ['progress', 'junit'];
+
 junitReporter = {
-    outputFile: 'test_out/unit.xml',
+    outputFile: 'unit/unit-result.xml',
     suite: 'unit'
 };
